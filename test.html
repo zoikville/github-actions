@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <h2>Change Background Color of Div in JavaScript</h2>
+    <div id="myDiv" style="border:1px solid">
+        <p>This is a paragraph in Div.</p>
+        <span>This is a span in Div.</span>
+    </div>
+    <br>
+    <button type="button" onclick="changeStyle()">Click Me</button>
+    <script>
+
+        //change div1 font size when button clicked to 40px and change the color of div1 when button clicked
+        function changeStyle() {
+            var div1 = document.getElementById("myDiv");
+            div1.style.backgroundColor = "red";
+            div1.style.fontSize = "40px";
+        }
+
+    </script>
+
+
+
+
+</body>
+
+</html>

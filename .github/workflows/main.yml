@@ -14,7 +14,7 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          server: ftp://101.0.105.110
+          server: ftp.rubensmythe.com
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
           server.dir: /public_html/master/

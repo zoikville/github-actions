@@ -17,5 +17,4 @@ jobs:
           server: ftp://101.0.105.110
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
-          server.dir: /public_html/staging
-
+          server.dir: /public_html/staging/
